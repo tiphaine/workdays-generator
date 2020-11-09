@@ -2,6 +2,8 @@ import click
 import calendar
 import pandas as pd
 import workalendar
+import warnings
+warnings.filterwarnings("ignore")
 
 from collections import defaultdict
 from workalendar import europe, america, asia, oceania, africa, usa
